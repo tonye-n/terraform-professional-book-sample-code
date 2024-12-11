@@ -1,0 +1,30 @@
+terraform {
+  required_version = ">= 1.6.0"
+
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.61.0"
+    }
+  }
+}
+
+provider "aws" {
+  region = "eu-west-1"
+}
+
+resource "aws_security_group" "web" {
+  name        = "web"
+  description = "Security group for web servers"
+
+  tags = {
+    Name = "web"
+  }
+}
+
+resource "aws_vpc_security_group_ingress_rule" "https" {
+  security_group_id = aws_security_group.web.id
+  from_port         = 443
+  to_port           = 443
+  ip_protocol       = "Tcp"
+}
