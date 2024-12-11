@@ -46,6 +46,6 @@ while IFS= read -r tf_file; do
     # Return to the previous directory
     popd >/dev/null
 
-done < <(find "$SEARCH_DIR" -type f -name main.tf -not -path "*/.terraform/*")
+done < <(find "$SEARCH_DIR" -type f -name main.tf -not -path "*/.terraform/*" -not -path "*/modules/*")
 
 echo "Script complete. Any failures were logged in $LOGFILE."
