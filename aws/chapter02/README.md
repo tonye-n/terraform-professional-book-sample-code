@@ -1,1 +1,1 @@
-# Chapter 2
+# Chapter 2 - Terraform 101
