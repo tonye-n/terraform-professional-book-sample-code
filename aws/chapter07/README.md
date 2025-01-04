@@ -1,1 +1,1 @@
-# Chapter 7 - Configure and Use Terraform Providers
+# Chapter 7 - Develop Collaborative Terraform Workflows

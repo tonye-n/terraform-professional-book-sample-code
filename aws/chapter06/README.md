@@ -1,1 +1,1 @@
-# Chapter 6 - Create, Maintain, and Use Terraform Modules
+# Chapter 6 - Develop and Troubleshoot Dynamic Configuration

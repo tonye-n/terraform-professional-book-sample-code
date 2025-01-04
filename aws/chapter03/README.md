@@ -1,1 +1,1 @@
-# Chapter 3 - Manage Resource Lifecycle
+# Chapter 3 - Terraform 101

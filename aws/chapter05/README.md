@@ -1,1 +1,1 @@
-# Chapter 5 - Develop Collaborative Terraform Workflows
+# Chapter 5 - Manage Resource Lifecycle
