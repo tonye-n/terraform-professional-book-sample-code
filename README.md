@@ -7,3 +7,7 @@ Most of the samples can be run as-is. However, a few samples depend on prerequis
 ## AWS edition
 
 Find the AWS samples in [aws](./aws/).
+
+## Azure edition
+
+Find the Azure samples in [azure](./azure/)
