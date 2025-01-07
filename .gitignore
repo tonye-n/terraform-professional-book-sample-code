@@ -21,3 +21,6 @@ actions.tfplan
 
 # test
 failure.log
+
+# mac
+.DS_Store
