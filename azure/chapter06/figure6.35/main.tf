@@ -21,7 +21,7 @@ variable "location" {
   default = "swedencentral"
 }
 
-variable "number_of_subnets" {
+variable "num_subnets" {
   type    = number
   default = 3
 }
@@ -40,7 +40,7 @@ resource "azurerm_virtual_network" "app" {
 }
 
 resource "azurerm_subnet" "all" {
-  count = var.number_of_subnets
+  count = var.num_subnets
 
   name                 = "snet-${count.index}"
   resource_group_name  = azurerm_resource_group.default.name
