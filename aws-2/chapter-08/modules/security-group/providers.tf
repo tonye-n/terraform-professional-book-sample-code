@@ -5,6 +5,4 @@ terraform {
       version = "~> 5.67.0"
     }
   }
-
-
 }
