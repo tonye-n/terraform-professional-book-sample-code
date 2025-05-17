@@ -6,3 +6,4 @@ locals {
     for rule in var.rules : rule.name => rule if rule.direction == "out"
   }
 }
+
